@@ -1,0 +1,404 @@
+/*@import url(http://fonts.googleapis.com/css?family=Bree+Serif);*?
+/* the important bits */
+.svg li {
+  -webkit-perspective: 400px;
+          perspective: 400px;
+}
+
+.svg .info {
+  -webkit-transform: rotate3d(1, 0, 0, 90deg);
+          transform: rotate3d(1, 0, 0, 90deg);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  pointer-events: none;
+  background-color: rgba(203, 203, 203, 0);
+}
+.svg li:hover .info {
+    background-color: rgba(0, 0, 0, .6);
+
+}
+
+.svg li.mobile:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -1148px 0;
+}
+.svg li.unicom:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  0 0;
+}
+.svg li.telecom:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -1435px 0;
+}
+
+.svg li.taobao:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -574px 0;
+}
+.svg li.jd:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -2870px 0;
+}
+.svg li.tencent:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -861px 0;
+}
+.svg li.al:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -1722px 0;
+}
+.svg li.zfb:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -287px 0;
+}
+.svg li.yzg:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -2296px 0;
+}
+.svg li.yl:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -2583px 0;
+}
+.svg li.cft:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -2009px 0;
+}
+.svg li.wd:hover {
+    background-image: url("../images/cooperate.png");
+    background-position:  -3157px 0;
+}
+.svg li:hover .info h3{
+    color: rgba(255, 255, 255,1);
+}
+
+.svg .in-top .info {
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  -webkit-animation: in-top 300ms ease 0ms 1 forwards;
+          animation: in-top 300ms ease 0ms 1 forwards;
+}
+
+.svg .in-right .info {
+  -webkit-transform-origin: 100% 0%;
+          transform-origin: 100% 0%;
+  -webkit-animation: in-right 300ms ease 0ms 1 forwards;
+          animation: in-right 300ms ease 0ms 1 forwards;
+}
+
+.svg .in-bottom .info {
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: in-bottom 300ms ease 0ms 1 forwards;
+          animation: in-bottom 300ms ease 0ms 1 forwards;
+}
+
+.svg .in-left .info {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-animation: in-left 300ms ease 0ms 1 forwards;
+          animation: in-left 300ms ease 0ms 1 forwards;
+}
+
+.svg .out-top .info {
+  -webkit-transform-origin: 50% 0%;
+          transform-origin: 50% 0%;
+  -webkit-animation: out-top 300ms ease 0ms 1 forwards;
+          animation: out-top 300ms ease 0ms 1 forwards;
+}
+
+.svg .out-right .info {
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-animation: out-right 300ms ease 0ms 1 forwards;
+          animation: out-right 300ms ease 0ms 1 forwards;
+}
+
+.svg .out-bottom .info {
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: out-bottom 300ms ease 0ms 1 forwards;
+          animation: out-bottom 300ms ease 0ms 1 forwards;
+}
+
+.svg .out-left .info {
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-animation: out-left 300ms ease 0ms 1 forwards;
+          animation: out-left 300ms ease 0ms 1 forwards;
+}
+
+@-webkit-keyframes in-top {
+  from {
+    -webkit-transform: rotate3d(-1, 0, 0, 90deg);
+            transform: rotate3d(-1, 0, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+
+@keyframes in-top {
+  from {
+    -webkit-transform: rotate3d(-1, 0, 0, 90deg);
+            transform: rotate3d(-1, 0, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@-webkit-keyframes in-right {
+  from {
+    -webkit-transform: rotate3d(0, -1, 0, 90deg);
+            transform: rotate3d(0, -1, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-right {
+  from {
+    -webkit-transform: rotate3d(0, -1, 0, 90deg);
+            transform: rotate3d(0, -1, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@-webkit-keyframes in-bottom {
+  from {
+    -webkit-transform: rotate3d(1, 0, 0, 90deg);
+            transform: rotate3d(1, 0, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-bottom {
+  from {
+    -webkit-transform: rotate3d(1, 0, 0, 90deg);
+            transform: rotate3d(1, 0, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@-webkit-keyframes in-left {
+  from {
+    -webkit-transform: rotate3d(0, 1, 0, 90deg);
+            transform: rotate3d(0, 1, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-left {
+  from {
+    -webkit-transform: rotate3d(0, 1, 0, 90deg);
+            transform: rotate3d(0, 1, 0, 90deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@-webkit-keyframes out-top {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(-1, 0, 0, 104deg);
+            transform: rotate3d(-1, 0, 0, 104deg);
+  }
+}
+@keyframes out-top {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(-1, 0, 0, 104deg);
+            transform: rotate3d(-1, 0, 0, 104deg);
+  }
+}
+@-webkit-keyframes out-right {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, -1, 0, 104deg);
+            transform: rotate3d(0, -1, 0, 104deg);
+  }
+}
+@keyframes out-right {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, -1, 0, 104deg);
+            transform: rotate3d(0, -1, 0, 104deg);
+  }
+}
+@-webkit-keyframes out-bottom {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(1, 0, 0, 104deg);
+            transform: rotate3d(1, 0, 0, 104deg);
+  }
+}
+@keyframes out-bottom {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(1, 0, 0, 104deg);
+            transform: rotate3d(1, 0, 0, 104deg);
+  }
+}
+@-webkit-keyframes out-left {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 1, 0, 104deg);
+            transform: rotate3d(0, 1, 0, 104deg);
+  }
+}
+@keyframes out-left {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+            transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 1, 0, 104deg);
+            transform: rotate3d(0, 1, 0, 104deg);
+  }
+}
+/* you can ignore this ones */
+.svg ul {
+  padding: 0;
+}
+.svg ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.svg li {
+  position: relative;
+  float: left;
+  width: 280px;
+  height: 160px;
+  margin: 5px;
+  padding: 0;
+  list-style: none;
+}
+.svg li a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.svg li h3 {
+  margin-top: 50px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0);
+
+}
+.svg li p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0);
+}
+.svg li .normal {
+  width: 100%;
+  height: 100%;
+  background:url("../images/cooperate1.png") ;
+  color: rgba(52, 73, 94, 0.6);
+  box-shadow: inset 0 2px 20px #e6ebed;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+}
+.svg li .normal.mobile{
+    background-position: -1148px -151px;
+}
+.svg li .normal.unicom{
+    background-position: 0 -151px;
+}
+.svg li .normal.telecom{
+    background-position:-1435px -151px;
+}
+.svg li .normal.taobao{
+    background-position:-574px -151px;
+}
+.svg li .normal.jd{
+    background-position:-2870px -151px;
+}
+
+.svg li .normal.tencent{
+    background-position:-861px -151px;
+}
+
+.svg li .normal.zfb{
+    background-position:-287px -151px;
+}
+.svg li .normal.yzf{
+    background-position:-2296px -151px;
+}
+.svg li .normal.yl{
+    background-position:-2583px -151px;
+}
+
+.svg li .normal.al{
+    background-position:-1722px -151px;
+}
+.svg li .normal.cft{
+    background-position:-2009px -151px;
+}
+
+.svg li .normal.wd{
+    background-position:-3157px -151px;
+}
+
+.svg li .normal svg {
+  pointer-events: none;
+  width: 50px;
+}
+.svg li .normal svg path {
+  fill: rgba(52, 73, 94, 0.2);
+}
+
+.svg * {
+  box-sizing: border-box;
+}
+.svg h1 {
+  margin: 0 auto 5px;
+  text-align: center;
+}
+
+
+.svg .container {
+  width: 1200px;
+  margin: 10px auto 0;
+}
+

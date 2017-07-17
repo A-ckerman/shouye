@@ -1,0 +1,68 @@
+@media all and (min-width: 321px) and (max-width: 768px){
+    /*导航栏隐藏*/
+    #topNav>li{
+        display:none;
+    }
+    /*轮播图*/
+    /*.swiper-slide{*/
+        /*display:none;*/
+    /*}*/
+
+    .b-img img{
+        margin-top:230px;
+    }
+
+    /*圆点*/
+    .menu  span{
+        display:none;
+    }
+
+
+
+    /*迎新大礼*/
+    .data-row1 li,.data-row2 li{
+            margin-left: 85px;
+   }
+        .hot-data h2{
+            display:none;
+        }
+
+        .advantages-box h2{
+            display:none;
+        }
+
+/*底部*/
+
+.contact .us{
+    margin-top: 84px;
+    margin-left: 166px;
+}
+
+}
+
+
+
+
+@media all and (max-width: 320px){
+    /*导航栏隐藏*/
+    #topNav>li{
+        display:none;
+    }
+
+    /*轮播图*/
+    .b-img img{
+        margin-top:230px;
+    }
+
+    /*迎新大礼*/
+    .data-row1 li,.data-row2 li{
+        margin-left: 80px;
+    }
+
+
+    /*圆点*/
+    .menu  span{
+        display:none;
+    }
+
+}
